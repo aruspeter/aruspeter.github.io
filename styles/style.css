@@ -464,8 +464,15 @@ li a:hover{
         z-index: 1000;
         animation: none;
     }
+    .meglog{
+        animation: none !important;
+        visibility: visible !important;
+    }
     .navbar-left li{
         display: inline-block;
+    }
+    .navbar-left li a:hover{
+        text-shadow: none !important;
     }
     .navbar-left ul{
         margin: 5px;
@@ -533,6 +540,14 @@ li a:hover{
 }
 
 @media screen and (max-width: 375px){
+    .background{
+        position: absolute;
+        background-position: 20% 20%;
+    }
+    .background img{
+        object-fit: cover;
+        background-position: 20% 20%;
+    }
     .container{
         width: 100%;
     }
@@ -552,7 +567,7 @@ li a:hover{
         margin: 5px;
     }
     .intro p{
-        padding-top:60%;
+        padding-top:80%;
     }
     .about-info .aboutarticle{
         width: 100%;
