@@ -460,7 +460,7 @@ li a:hover{
     }
     .navbar{
         position: fixed;
-        top: 5%;
+        top: 0%;
         font-size: 1em;
         animation: none;
     }
@@ -502,7 +502,7 @@ li a:hover{
         font-size: 1.4em;
         width: 100%;
         padding: 0;
-        padding-top: 35%;
+        padding-top: 55%;
         margin: 0 auto;
     }
     .about-info article h1{
@@ -585,7 +585,7 @@ li a:hover{
         margin: 5px;
     }
     .intro p{
-        padding-top:80%;
+        margin-top:60%;
     }
     .about-info .aboutarticle{
         width: 100%;
