@@ -81,7 +81,6 @@ a{
     text-decoration: none; 
     color: white;
     text-shadow: 0px 2px 3px black;
-    padding: 5px;
     font-weight: bold;
 }
 
@@ -229,25 +228,28 @@ li a:hover{
 .about-info{
     text-align: center;
     position: relative;
+    height: 100%;
     min-height: fit-content;
-    padding-top: 10%;
+    padding-top: 20%;
     padding-bottom: 10%;
     opacity: 0;
     transition: opacity 1s;
     will-change: opacity;
-    background-image: linear-gradient(to right,
-    transparent,
-    rgb(21, 47, 109) 50%,
-    transparent 
-);
 }
 .about-info.is-visible{
     opacity: 1;
 }
 
 .aboutarticle{
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin: 0 auto;
     width: 70%;
+    background-image: linear-gradient(to right,
+    transparent,
+    rgb(36, 35, 77) 50%,
+    transparent 
+);
 }
 
 .about-info article h1{
@@ -332,13 +334,14 @@ li a:hover{
 .contact-info{
     position: relative;
     height: 100%;
+    min-height: fit-content;
     width: 100%;
     text-align: center;
     margin: auto;
     padding-top: 5%;
     background-image: linear-gradient(to right,
     transparent,
-    rgb(21, 47, 109) 50%,
+    rgb(36, 35, 77) 50%,
     transparent 
 );
 }
@@ -363,14 +366,15 @@ li a:hover{
     width: 55%;
     margin-top: 5%;
     background-image: linear-gradient(to bottom,
-        transparent, transparent, rgb(14, 8, 99)
+        transparent, transparent, rgb(60, 17, 77)
     );
 }
 
 .form-control input{
     font-family: 'Merriweather', serif;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     font-size: 1.2em;
     padding: 5px;
     background-color: rgb(1,31,101);
@@ -387,39 +391,61 @@ li a:hover{
 }
 
 .form-control textarea{
+    margin-top: 5px;
     width: 100%;
     resize: none;
     font-family: 'Merriweather', serif;
     padding: 10px;
     background-color: rgb(1,31,101);
-    color: lightgray;
+    color: rgb(191, 233, 243);
     outline: none;
     font-size: 1.2em;
 }
 
 .formdivs.error input{
-    border: 2px rgb(156, 35, 35) solid;
+    border: 2px rgb(255, 160, 82) solid;
 }
 .formdivs.success input{
-    border: 2px green solid;
+    border: 3px rgb(60, 17, 77) solid;
 }
 
 .formdivs small{
     visibility: hidden;
-    position: relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    color: rgb(255, 160, 82);
+    font-size: 1em;
+    font-weight: bold;
 }
 .formdivs.error small{
-    color: red;
-    font-weight: bold;
     visibility: visible;
 }
 
-.contact-info .icons a img{
+.circlediv{
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px 10px 10px 10px;
     height: 60px;
     width: 60px;
+}
+.circlediv:hover{
+    background-color: rgb(60, 17, 77);
+    transition: 0.5s;
+}
+.sqrdiv{
+    display: inline-block;
+    border-radius: 30%;
     margin: 10px 10px 10px 10px;
+    height: 60px;
+    width: 60px;
+}
+.sqrdiv:hover{
+    background-color: rgb(60, 17, 77);
+    transition: 0.5s;
+}
+
+.contact-info .icons a img{
+    margin: auto;
+    height: 60px;
+    width: 60px;
     transition: 1s;
     background-image: transparent;
 }

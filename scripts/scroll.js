@@ -7,7 +7,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction(){    
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     navbar.classList.replace("navbar", "navbar-left");
-    background.style.filter = "blur(3px) grayscale(50%)";
+    background.style.filter = "blur(3px) grayscale(60%)";
   } else {
     navbar.classList.replace("navbar-left", "navbar");
     background.style.filter = "none"

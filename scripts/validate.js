@@ -15,19 +15,19 @@ function checkInputs() {
     const subjectValue = subject.value.trim();
 
     if (nameValue === ''){
-        setErrorFor(username, "Dis shouldn\'t be blank");
+        setErrorFor(username, "This shouldn\'t be blank");
     } else {
         setSuccessFor(username)
     };
     if (emailValue === ''){
-        setErrorFor(email, "Dis shouldn\'t be blank");
+        setErrorFor(email, "This shouldn\'t be blank either");
     } else if (!isEmail(emailValue)){
-        setErrorFor(email, "E-mail ain\t valid here.");
+        setErrorFor(email, "Gimme a valid one.");
     } else {
         setSuccessFor(email)
     };
     if (subjectValue === ''){
-        setErrorFor(subject, "Dis shouldn\'t be blank");
+        setErrorFor(subject, "It's ok to have one");
     } else {
         setSuccessFor(subject)
     };
@@ -45,8 +45,6 @@ function setErrorFor(input, message) {
 function setSuccessFor(input){
     const formControl = input.parentElement;
     formControl.className = 'formdivs success';
-
-    small.innerText = ' ';
 }
 
 function isEmail(email) {
