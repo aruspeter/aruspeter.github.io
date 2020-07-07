@@ -20,6 +20,7 @@ body{
 
 }
 .container-box{
+    background-color: black;
     position: fixed;
     top: 0;
     left: 0;
@@ -449,6 +450,9 @@ li a:hover{
 /*---------------------- RESPONSIVE -----------------------*/
 
 @media all and (max-width: 1024px){
+    .background{
+        object-position: -30vh;
+    }
     .about-info{
         opacity: 1 !important;
     }
@@ -559,12 +563,7 @@ li a:hover{
 
 @media screen and (max-width: 375px){
     .background{
-        position: absolute;
-        background-position: 20% 20%;
-    }
-    .background img{
-        object-fit: cover;
-        background-position: 20% 20%;
+        object-position: -30vh;
     }
     .container{
         width: 100%;
