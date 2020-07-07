@@ -84,6 +84,24 @@ a{
     font-weight: bold;
 }
 
+.meglog{
+    position: relative;
+    animation: jump 0.5s linear;
+    visibility: hidden;
+}
+
+@keyframes jump{
+    0%{
+        opacity: 0.3;
+        left: 3%;
+        visibility: visible;}
+    100%{
+        opacity: 0; 
+        left:-30%;
+        visibility: hidden;
+    }
+}   
+
 @keyframes appear{
     0%{opacity: 0;
     visibility: hidden;}
