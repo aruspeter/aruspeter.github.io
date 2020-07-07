@@ -431,6 +431,12 @@ li a:hover{
 /*---------------------- RESPONSIVE -----------------------*/
 
 @media all and (max-width: 1024px){
+    .about-info{
+        opacity: 1 !important;
+    }
+    *{
+        animation: none !important;
+    }
     .container{
         width: 100%;
     }
