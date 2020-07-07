@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArusPeter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link id="pagestyle" href="./styles/style.css" rel="stylesheet" type="text/css">
+    <!-- <link href="style2.css" rel="stylesheet" type="text/css"> -->
+    <link href="./styles/jumpmenu.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="container-box">
+        <img class="background" src="./img/vaxicompressed.jpg" id="bgrimg">
+    </div>
+    <div class="navbar" id="navbarleft">
+        <nav>
+            <ul>
+                <li><a href="#aboutInfo" id="aboutButton" class="lista">aboutPeter</a></li>
+                <li><a href="#worksInfo" id="worksButton" class="lista">myWorks</a></li>
+                <li><a href="#skillsInfo" id="skillsButton" class="lista">mySkills</a></li>
+                <li><a href="#contactInfo" id="infoButton" class="lista">contact.me</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">       
+        <div class="intro">
+            <p>hi, I'm Péter! <br /> former actor. currently a front-end developer.</p>
+        </div>            
+        <div class="about-info" id="aboutInfo">
+            <div class="aboutarticle">
+                <article>
+                    <h1>about.me</h1>
+                    <p>I was working as a professional stage actor for 5 years. I quit my job recently to start a new life, so here I am looking for work and new challenges.</p><p> <i>things i love: </i>simple & smooth design. finding answers & solutions. good movies. quality music. video games. humour. cultural diversity. discussions. craft beer.</p>
+                </article> 
+            </div>
+        </div>
+
+        <div class="skills-info" id="skillsInfo">
+            <p>- i speak English, Hungarian, Romanian, currently learning Norwegian -</p>
+            <p>other languages  I'm familiar with:</p>
+            <div class="artcontain">  
+                <article>
+                    <h1>html</h1>
+                    <p>highschool memories</p>
+                </article>
+            </div>
+            <div class="artcontain">  
+                <article>
+                    <h1>css / sass</h1>
+                    <p>cascading, cascading</p>
+                </article>
+            </div> 
+            <div class="artcontain">  
+                <article>
+                    <h1>js</h1>
+                    <p>where the magic happens.</p>
+                </article>
+            </div> 
+            <div class="artcontain">  
+                <article>
+                    <h1>comfy with</h1>
+                    <p>webpack, node.js, bootstrap, react</p>
+                </article>
+            </div>      
+        </div>
+        <div class="works-info" id="worksInfo">
+
+        </div>
+        <div class="contact-info" id="contactInfo">
+            <p>you can reach me on these profiles...</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/arus.peter" target="_blank"><img src="./icons/facebuk.png"></a>
+                <a href="https://github.com/aruspeter" target="_blank"><img src="./icons/github.png"></a>
+                <a href="https://www.instagram.com/aruspeter/" target="_blank"><img src="./icons/instagram.png"></a>
+                <a href="https://www.linkedin.com/in/p%C3%A9ter-%C3%A1rus-8334781a5/" target="_blank"><img src="./icons/rsz_linkedin.png"></a>
+            </div>
+            <p>...or perhaps send me a message?</p>
+            <form class="form" id="form">
+                <div class="form-control">
+                    <div class="formdivs">
+                        <input type="text" name="username" id="name" placeholder="hi i'm peter, who are you?">
+                        <small></small>
+                    </div>
+                    <div class="formdivs">
+                        <input type="email" name="email" id="email" placeholder="your e-mail, so i can text you back">
+                        <small></small>
+                    </div>
+                    <div class="formdivs">
+                        <input type="text" name="subject" id="subject" placeholder="time to be subject-ive">
+                        <small></small>
+                    </div>
+                    <textarea name="message" id="message" rows="8" cols="60">Since this page is currently running on GitHub, here's my e-mail: petiws@yahoo.com
+
+You can also delete this text and write a novel.
+                    </textarea>
+                    <button type="submit" name="submit" id="submitform">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <button class="button" type="button" id="myButton">light</button>
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/changestyle.js"></script>
+    <script src="./scripts/jumpproba.js"></script>
+    <script src="./scripts/scroll.js"></script>
+    <script src="./scripts/validate.js"></script>
+</body>
+</html>
