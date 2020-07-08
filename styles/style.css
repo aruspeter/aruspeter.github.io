@@ -488,8 +488,8 @@ li a:hover{
 
     .button{
         visibility: visible;
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
         border-radius: 50%;
         background-color:rgb(60, 17, 77);
     }
@@ -497,7 +497,7 @@ li a:hover{
     .navbar{
         position: fixed;
         letter-spacing: 3px;
-        top: 6%;
+        top: 8%;
         right: 2%;
         font-size: 1.2em;
         text-align: right;
@@ -506,7 +506,7 @@ li a:hover{
     .navbar-left{
         position: fixed;
         letter-spacing: 3px;
-        top: 6%;
+        top: 8%;
         right: 2%;
         font-size: 1.2em;
         text-align: right;
@@ -514,8 +514,11 @@ li a:hover{
     }
     ul{
         background-color: black;
-        opacity: 0.7;
-        border-radius: 5%;
+        border-radius: 3%;
+    }
+    .navbar-left ul{
+        background-color: black;
+        border-radius: 3%;
     }
     .navbar nav li{
         display: none !important;
@@ -622,21 +625,6 @@ li a:hover{
     }
     .container{
         width: 100%;
-    }
-    .navbar{
-        top:0;
-        left: 0;
-        font-size: 1em;
-    }
-    .navbar-left{
-        position: fixed;
-        top:0;
-    }
-    .navbar ul{
-        margin: 5px;
-    }
-    .navbar-left ul{
-        margin: 5px;
     }
     .intro p{
         margin-top:60%;
