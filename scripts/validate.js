@@ -22,7 +22,7 @@ function checkInputs() {
     if (emailValue === ''){
         setErrorFor(email, "This shouldn\'t be blank either");
     } else if (!isEmail(emailValue)){
-        setErrorFor(email, "Gimme a valid one.");
+        setErrorFor(email, "This is not a valid one.");
     } else {
         setSuccessFor(email)
     };

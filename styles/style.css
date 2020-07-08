@@ -8,7 +8,7 @@ html{
     height: 100vh;
     width: 100vw;
     scroll-behavior: smooth;
-    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     color:white;
@@ -167,13 +167,14 @@ li{
     list-style: none;
     display: inline-block;
     margin: 0px 5px 0px 5px;
+    cursor: pointer;
 
 }
 li a:hover{
     color:white;
     transition: 1.5s ease-in-out;
     opacity: 1;
-    animation: spacing 1s;
+    animation: appear 1s;
     animation-fill-mode: forwards;
 }
 @keyframes spacing{
@@ -293,22 +294,23 @@ li a:hover{
 }
 .skills-info p:nth-child(2){
     font-size: 1.8em;
-    margin-bottom: 6%;
+    margin-bottom: 2%;
     animation: shadow 8s infinite;
 
 }
 .artcontain{    
     margin: auto;
-    display: inline-flex;
+    display: block;
     position: relative;
     text-align: center;
     justify-content: center;
-    height: 200px;
-    width: 20%;
+    height: 10%;
+    width: 80%;
     border-radius: 1%;
     transition: 2s;
     opacity: 1;
     padding: 15px;
+    text-shadow: 4px 4px 3px black;
 }
 .artcontain:hover{
     box-shadow: none;
@@ -320,15 +322,17 @@ li a:hover{
 }
 
 .artcontain h1{
+    display: inline-block;
     text-align: center;
-    font-size: 1.6em;
+    font-size: 2em;
     font-weight: bolder;
     letter-spacing: 5px;
     margin-top: 50px;
 }
 
-.skills-info .artcontain article p{
-    font-size: 1.4em;
+.artcontain article p{
+    display: inline-block;
+    font-size: 1.2em;
     text-shadow: 2px 2px 1px black;
 }
 
@@ -344,7 +348,7 @@ li a:hover{
     padding-top: 2%;
     background-image: linear-gradient(to right,
     transparent,
-    rgb(36, 35, 77),
+    rgb(26, 26, 51),
     transparent
 );
 }
@@ -371,12 +375,15 @@ li a:hover{
     margin-top: 5%;
     padding-bottom: 20px;
     background-image: linear-gradient(to bottom,
-        transparent, transparent, rgb(60, 17, 77)
+        transparent, transparent, rgb(46, 22, 56)
     );
+    border: 5px solid;
+    border-image: linear-gradient(to bottom, transparent, transparent, rgb(30, 20, 53) 50%)1;
+    border-top: none;
 }
 
 .form-control input{
-    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -384,13 +391,13 @@ li a:hover{
     padding: 5px;
     background-color: rgb(1,31,101);
     color: white;
-    border: none;
+    border: 2px solid rgb(46, 22, 56);
     text-align: center;
     outline: none;
 }
 
 .form-control input::placeholder{
-    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     text-align: center;
 }
@@ -399,12 +406,17 @@ li a:hover{
     margin-top: 5px;
     width: 100%;
     resize: none;
-    font-family: 'Merriweather', serif;
-    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
     background-color: rgb(1,31,101);
     color: rgb(191, 233, 243);
     outline: none;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    text-shadow: 4px 2px 2px rgb(0, 0, 0),
+                -4px 2px 2px black;
+    text-align: center;
+    border: none;
+    border-top: 2px solid rgb(46, 22, 56);
 }
 
 .formdivs.error input{
@@ -437,7 +449,7 @@ li a:hover{
 }
 .sqrdiv{
     display: inline-block;
-    border-radius: 30%;
+    border-radius: 20%;
     margin: 10px 10px 10px 10px;
     height: 60px;
     width: 60px;
@@ -446,13 +458,18 @@ li a:hover{
     background-color: rgb(60, 17, 77);
     transition: 0.5s;
 }
+.egyebdiv{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 .contact-info .icons a img{
     margin: auto;
     height: 60px;
     width: 60px;
     transition: 1s;
-    background-image: transparent;
+    background-color: transparent;
 }
 
 #submitform{
@@ -462,7 +479,7 @@ li a:hover{
     width: 100px;
     margin-top: 15px;
     background-color: rgb(1,31,101);
-    color: gray;
+    color: lightgray;
     border: none;
     outline: none;
     transition: 0.1s;
