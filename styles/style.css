@@ -15,8 +15,8 @@ body{
     margin: 0 auto;
     letter-spacing: 2px;
     padding: 0;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 
 }
 .container-box{
@@ -24,8 +24,8 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -510,10 +510,16 @@ li a:hover{
         background-color: transparent;
     }
     .navbar nav li{
-        display: none;
+        display: none !important;
+    }
+    .navbar-left nav li{
+        display: none !important;
     }
     .navbar:hover nav li{
-        display: block;
+        display: block !important;
+    }
+    .navbar-left:hover li{
+        display: block !important;
     }
     
 
