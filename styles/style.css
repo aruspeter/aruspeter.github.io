@@ -555,7 +555,7 @@ ul li a:hover {
           box-shadow: none;
 }
 
-@media all and (max-width: 1024px) {
+@media (max-width: 991.98px) {
   /*--------------- DROPDOWN --------------------------*/
   .button {
     visibility: visible;
@@ -696,7 +696,7 @@ ul li a:hover {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 767.98px) {
   .background {
     -o-object-position: -30vh;
        object-position: -30vh;
