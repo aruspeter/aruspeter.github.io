@@ -375,9 +375,6 @@ ul li a:hover {
   text-align: center;
   margin: auto;
   padding-top: 2%;
-  background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#1a1a33), to(transparent));
-  background-image: linear-gradient(to right, transparent, #1a1a33, transparent);
-  overflow: auto;
 }
 
 .contact-info .icons {
@@ -391,8 +388,8 @@ ul li a:hover {
 
 .contact-info .icons a img {
   margin: auto;
-  height: 55px;
-  width: 55px;
+  height: 50px;
+  width: 50px;
   -webkit-transition: 1s;
   transition: 1s;
   background-color: transparent;
@@ -400,12 +397,11 @@ ul li a:hover {
 
 .contact-info p {
   font-size: 1.4em;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .contact-info .form-control {
-  height: 50%;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   margin: auto;
@@ -499,8 +495,8 @@ ul li a:hover {
   display: inline-block;
   border-radius: 50%;
   margin: 10px 10px 10px 10px;
-  height: 55px;
-  width: 55px;
+  height: 50px;
+  width: 50px;
 }
 
 .circlediv:hover {
@@ -513,8 +509,8 @@ ul li a:hover {
   display: inline-block;
   border-radius: 20%;
   margin: 10px 10px 10px 10px;
-  height: 55px;
-  width: 55px;
+  height: 50px;
+  width: 50px;
 }
 
 .sqrdiv:hover {
