@@ -390,8 +390,8 @@ ul li a:hover {
 
 .contact-info .icons a img {
   margin: auto;
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
   -webkit-transition: 1s;
   transition: 1s;
   background-color: transparent;
@@ -498,8 +498,8 @@ ul li a:hover {
   display: inline-block;
   border-radius: 50%;
   margin: 10px 10px 10px 10px;
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
 }
 
 .circlediv:hover {
@@ -512,8 +512,8 @@ ul li a:hover {
   display: inline-block;
   border-radius: 20%;
   margin: 10px 10px 10px 10px;
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
 }
 
 .sqrdiv:hover {
@@ -610,6 +610,7 @@ ul li a:hover {
   .background {
     -o-object-position: -30vh;
        object-position: -30vh;
+    margin: auto;
   }
   .about-info {
     opacity: 1 !important;
@@ -676,6 +677,7 @@ ul li a:hover {
     font-weight: bold;
   }
   .skills-info .artcontain h1 {
+    display: block;
     font-size: 1.5em;
     margin: 0;
     text-shadow: 2px 2px 1px black;
@@ -724,11 +726,14 @@ ul li a:hover {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    margin-top: 5%;
+    margin-top: 3%;
   }
-  .form-control {
+  .contact-info form .form-control {
     width: 100%;
     margin: 0;
+  }
+  .contact-info form .form-control textarea {
+    font-size: 1.2em;
   }
 }
 /*# sourceMappingURL=style.css.map */
