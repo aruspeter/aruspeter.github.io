@@ -377,6 +377,7 @@ ul li a:hover {
   padding-top: 2%;
   background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#1a1a33), to(transparent));
   background-image: linear-gradient(to right, transparent, #1a1a33, transparent);
+  overflow: auto;
 }
 
 .contact-info .icons {
@@ -403,7 +404,7 @@ ul li a:hover {
   margin-top: 15px;
 }
 
-.form-control {
+.contact-info .form-control {
   height: 50%;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -421,7 +422,7 @@ ul li a:hover {
   border-top: none;
 }
 
-.form-control input {
+.contact-info .form-control input {
   font-family: 'Poppins', sans-serif;
   width: 100%;
   margin-bottom: 5px;
@@ -435,31 +436,31 @@ ul li a:hover {
   outline: none;
 }
 
-.form-control input::-webkit-input-placeholder {
+.contact-info .form-control input::-webkit-input-placeholder {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   text-align: center;
 }
 
-.form-control input:-ms-input-placeholder {
+.contact-info .form-control input:-ms-input-placeholder {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   text-align: center;
 }
 
-.form-control input::-ms-input-placeholder {
+.contact-info .form-control input::-ms-input-placeholder {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   text-align: center;
 }
 
-.form-control input::placeholder {
+.contact-info .form-control input::placeholder {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   text-align: center;
 }
 
-.form-control textarea {
+.contact-info .form-control textarea {
   margin-top: 5px;
   width: 100%;
   resize: none;
@@ -533,7 +534,7 @@ ul li a:hover {
   font-size: 1.2em;
   height: 50px;
   width: 100px;
-  margin-top: 15px;
+  margin-top: 10px;
   background-color: #011f65;
   color: lightgray;
   border: none;
