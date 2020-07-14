@@ -1,0 +1,254 @@
+header {
+  position: relative;
+  height: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+header h1 {
+  height: 30%;
+  padding-top: 10%;
+  font-size: 3em;
+  font-weight: normal;
+  color: darkslategray;
+}
+
+header p {
+  font-size: 1.8em;
+  color: gray;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+header button {
+  content: "dik";
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  text-transform: uppercase;
+  font-weight: normal;
+  background-color: orange;
+  font-weight: bold;
+  outline: none;
+  -webkit-box-shadow: 8px 8px 1px black;
+          box-shadow: 8px 8px 1px black;
+  border-radius: 50%;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+header button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  background-color: red;
+  -webkit-transform: translate3d(10px, 10px, 10px);
+          transform: translate3d(10px, 10px, 10px);
+  box-shadow: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  scroll-behavior: smooth;
+}
+
+.container {
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20%;
+  padding: 0%;
+  position: relative;
+  text-align: center;
+}
+
+.container h1 {
+  height: 20%;
+  padding-top: 2%;
+  font-size: 3em;
+  font-weight: normal;
+  color: darkslategray;
+}
+
+.container .layoutbuttons {
+  width: 100%;
+  height: 15%;
+}
+
+.container .fruitcontain {
+  clear: both;
+  width: 100%;
+}
+
+.container .buttoncontain {
+  display: inline-block;
+  width: 15%;
+  height: 15%;
+}
+
+.container button {
+  content: "dik";
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  text-transform: uppercase;
+  font-weight: normal;
+  background-color: orange;
+  font-weight: bold;
+  outline: none;
+  -webkit-box-shadow: 8px 8px 1px black;
+          box-shadow: 8px 8px 1px black;
+  border-radius: 50%;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  height: 70px;
+  width: 80px;
+  border-radius: 40%;
+}
+
+.container button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  background-color: red;
+  -webkit-transform: translate3d(10px, 10px, 10px);
+          transform: translate3d(10px, 10px, 10px);
+  box-shadow: none;
+}
+
+.container .artcontain1 {
+  display: inline-block;
+  position: relative;
+  width: 24%;
+  text-align: left;
+}
+
+.container .artcontain1 img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 55%;
+  height: 100%;
+  float: left;
+}
+
+.container .artcontain1 h2 {
+  padding-top: 10%;
+  position: relative;
+  float: left;
+  width: 45%;
+  font-size: 1.2em;
+  color: darkslategray;
+}
+
+.container .artcontain1 p {
+  position: relative;
+  color: gray;
+}
+
+.artcontain2 {
+  display: inline-block;
+  position: relative;
+  width: 44%;
+  text-align: left;
+}
+
+.artcontain2 img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 55%;
+  height: 100%;
+  float: left;
+}
+
+.artcontain2 h2 {
+  padding-top: 10%;
+  position: relative;
+  float: left;
+  width: 45%;
+  font-size: 1.2em;
+  color: darkslategray;
+}
+
+.artcontain2 p {
+  position: relative;
+  color: gray;
+}
+
+.artcontain3:nth-child(2n) {
+  display: inline-block;
+  position: relative;
+  width: 74%;
+  text-align: right;
+}
+
+.artcontain3:nth-child(2n) img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 55%;
+  height: 100%;
+  float: right;
+}
+
+.artcontain3:nth-child(2n) h2 {
+  padding-top: 10%;
+  position: relative;
+  float: right;
+  width: 45%;
+  font-size: 1.2em;
+  color: darkslategray;
+}
+
+.artcontain3:nth-child(2n) p {
+  position: relative;
+  color: gray;
+}
+
+.artcontain3:nth-child(2n+1) {
+  display: inline-block;
+  position: relative;
+  width: 74%;
+  text-align: left;
+}
+
+.artcontain3:nth-child(2n+1) img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 55%;
+  height: 100%;
+  float: left;
+}
+
+.artcontain3:nth-child(2n+1) h2 {
+  padding-top: 10%;
+  position: relative;
+  float: left;
+  width: 45%;
+  font-size: 1.6em;
+  color: darkslategray;
+}
+
+.artcontain3:nth-child(2n+1) p {
+  position: relative;
+  color: gray;
+  font-size: 1.2em;
+}
+
+#fourinrow {
+  background-color: red;
+}
+/*# sourceMappingURL=main.css.map */

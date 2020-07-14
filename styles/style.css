@@ -147,6 +147,7 @@ nav {
   position: fixed;
   background: transparent;
   top: 25%;
+  left: 2%;
   line-height: 50px;
   -webkit-animation: appear 1s;
           animation: appear 1s;
@@ -363,6 +364,8 @@ ul li a:hover {
   display: inline-block;
   font-size: 1.2em;
   text-shadow: 2px 2px 1px black;
+  -webkit-animation: none;
+          animation: none;
 }
 
 .contact-info {
@@ -506,8 +509,9 @@ ul li a:hover {
 }
 
 .sqrdiv {
+  text-align: center;
   display: inline-block;
-  border-radius: 20%;
+  border-radius: 25%;
   margin: 10px 10px 10px 10px;
   height: 50px;
   width: 50px;
@@ -552,6 +556,51 @@ ul li a:hover {
           box-shadow: none;
 }
 
+.works-info {
+  height: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.works-info h1 {
+  text-shadow: 2px 2px 2px black;
+  padding-top: 5%;
+  margin-bottom: 5%;
+  vertical-align: middle;
+}
+
+.works-info a {
+  text-decoration: none;
+  display: block;
+  font-size: 1.6em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1%;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.works-info a:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+          transform: scale3d(1.1, 1.1, 1.1);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  color: burlywood;
+}
+
 @media (max-width: 991.98px) {
   /*--------------- DROPDOWN --------------------------*/
   .button {
@@ -575,6 +624,7 @@ ul li a:hover {
   .navbar-left {
     position: fixed;
     letter-spacing: 3px;
+    left: unset;
     top: 8%;
     right: 2%;
     font-size: 1.2em;
