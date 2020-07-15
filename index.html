@@ -16,10 +16,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link id="pagestyle" href="./styles/style.css" rel="stylesheet" type="text/css">
+    <link href="./styles/loader.css" rel="stylesheet" type="text/css">
     <!-- <link href="style2.css" rel="stylesheet" type="text/css"> -->
+    <script src="./scripts/jquery.js"></script>
 
 </head>
 <body>
+    <div class="loader">
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+    </div>
+    <script>
+        $(window).on("load", function(){
+            $(".loader").fadeOut("slow")
+        });
+    </script>
     <div class="container-box">
         <img class="background" src="./img/vaxicompressed.jpg" id="bgrimg">
     </div>

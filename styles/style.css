@@ -135,7 +135,7 @@ nav {
   font-size: 1.4em;
   color: #fdf6ef;
   opacity: 0.7;
-  z-index: 1000;
+  z-index: 900;
 }
 
 .navbar:hover {
@@ -569,7 +569,7 @@ ul li a:hover {
 
 .works-info h1 {
   text-shadow: 2px 2px 2px black;
-  padding-top: 5%;
+  padding-top: 10%;
   margin-bottom: 5%;
   vertical-align: middle;
 }
@@ -608,38 +608,38 @@ ul li a:hover {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-color: #3c114d;
+    border: 4px solid #9df0f0;
+    background-color: transparent;
   }
   .navbar {
     position: fixed;
     letter-spacing: 3px;
-    top: 8%;
-    right: 2%;
+    top: 0%;
+    right: 0%;
     font-size: 1.2em;
-    text-align: right;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
   }
   .navbar-left {
     position: fixed;
     letter-spacing: 3px;
     left: unset;
-    top: 8%;
-    right: 2%;
+    top: 0%;
+    right: 0%;
     font-size: 1.2em;
-    text-align: right;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
   }
   ul {
-    background-color: black;
-    border-radius: 3%;
+    border: none;
+    background-color: transparent;
   }
   .navbar-left ul {
-    background-color: black;
-    border-radius: 3%;
+    background-color: transparent;
   }
   .navbar nav li {
     display: none !important;
@@ -647,10 +647,18 @@ ul li a:hover {
   .navbar-left nav li {
     display: none !important;
   }
-  .navbar:hover nav li {
+  .navbar:hover nav ul {
+    background-color: black;
+    opacity: 0.9;
+  }
+  .navbar:hover nav ul li {
     display: block !important;
   }
-  .navbar-left:hover li {
+  .navbar-left:hover ul {
+    background-color: black;
+    opacity: 0.9;
+  }
+  .navbar-left:hover ul li {
     display: block !important;
   }
   /*----------------THE REST-------------------------------*/
@@ -684,7 +692,7 @@ ul li a:hover {
     font-size: 1.4em;
     width: 90%;
     padding: 0;
-    padding-top: 55%;
+    margin-top: 30%;
     margin: 0 auto;
   }
   .about-info .aboutarticle {
